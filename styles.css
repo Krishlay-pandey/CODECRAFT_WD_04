@@ -1,0 +1,43 @@
+
+body {
+  background-color: #f9fafb;
+  font-family: sans-serif;
+  color: #1f2937;
+}
+
+#main-nav {
+  position: fixed;
+  width: 100%;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  z-index: 50;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #eff6ff, #e0e7ff);
+  min-height: 100vh;
+  padding: 4rem 0;
+}
+
+.project-card {
+  background: white;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
