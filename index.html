@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishlay Pandey | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <!-- Navigation -->
+  <nav class="fixed w-full bg-white shadow-sm z-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="#home" class="text-xl font-bold text-gray-900">KP</a>
+        <div class="hidden md:block">
+          <div class="ml-10 flex items-center space-x-4">
+            <a href="#home" class="nav-link px-3 py-2 rounded-md text-sm font-medium">Home</a>
+            <a href="#about" class="nav-link px-3 py-2 rounded-md text-sm font-medium">About</a>
+            <a href="#projects" class="nav-link px-3 py-2 rounded-md text-sm font-medium">Projects</a>
+            <a href="#contact" class="nav-link px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+          </div>
+        </div>
+        <button class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-gray-700">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home">
+    <div class="container">
+      <div class="hero-content">
+        <div class="flex-shrink-0 mb-6 md:mb-0">
+        <img src="krishlay.jpg" alt="Krishlay Pandey" class="w-40 h-40 rounded-full shadow-lg object-cover border-4 border-primary" />
+        </div>
+        <h1>Hi, I'm <span class="name">Krishlay Pandey</span></h1>
+        <h2 class="text-3xl md:text-4xl font-semibold mb-6 text-gray-800">Web Developer & UI Enthusiast</h2>
+        <p class="text-xl mb-8 max-w-lg text-gray-700">I build exceptional digital experiences with clean, efficient code and thoughtful design.</p>
+        
+        <div class="mb-8">
+          <h3 class="font-medium mb-3">Core Skills:</h3>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">HTML</span>
+            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">CSS</span>
+            <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">JavaScript</span>
+          </div>
+        </div>
+        <a href="#contact" class="px-6 py-3 bg-primary text-white rounded-lg font-medium hover:bg-secondary transition duration-300 inline-block">Hire Me</a>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h2 class="text-3xl font-bold mb-12 text-center">About <span class="text-primary">Me</span></h2>
+      
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div>
+          <h3 class="text-2xl font-semibold mb-6">Background</h3>
+          <p class="mb-6 leading-relaxed">I'm a passionate web developer currently pursuing my Bachelor's degree in Computer Science, with 1 year completed. I specialize in creating modern, user-friendly web applications and am eager to apply my skills to real-world projects.</p>
+          
+          <h3 class="text-2xl font-semibold mb-6">Education</h3>
+          <div class="mb-6 pl-6 border-l-4 border-primary">
+            <h4 class="font-bold text-lg">Arya College of Engineering</h4>
+            <p class="text-gray-600 mb-1">Bachelor of Technology in Computer Science</p>
+            <p class="text-gray-500">2023 - Present (1 year completed)</p>
+          </div>
+          
+          <h3 class="text-2xl font-semibold mb-6">Learning Journey</h3>
+          <p class="mb-6 leading-relaxed">While completing my B.Tech, I'm actively building projects to apply my growing knowledge in web development. I'm particularly focused on mastering React and Node.js through hands-on practice and online coursework.</p>
+          <p class="mb-6 leading-relaxed">I've completed several personal projects that demonstrate my ability to learn quickly and implement modern web technologies effectively.</p>
+        </div>
+
+        <div class="bg-gray-50 p-8 rounded-xl shadow-sm">
+          <h3 class="text-2xl font-semibold mb-6">Technical Skills</h3>
+          <div class="space-y-4">
+            <div>
+              <h4 class="font-medium mb-2">Frontend</h4>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-blue-50 text-blue-800 rounded-full text-sm">HTML5</span>
+                <span class="px-3 py-1 bg-blue-50 text-blue-800 rounded-full text-sm">CSS3</span> 
+                <span class="px-3 py-1 bg-blue-50 text-blue-800 rounded-full text-sm">JavaScript</span>
+                <span class="px-3 py-1 bg-blue-50 text-blue-800 rounded-full text-sm">Git & GitHub</span>
+              </div>
+            </div>
+            
+            <div>
+              <h4 class="font-medium mb-2">Tools & Platforms</h4>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-green-50 text-green-800 rounded-full text-sm">VS Code</span>
+                <span class="px-3 py-1 bg-green-50 text-green-800 rounded-full text-sm">GitHub</span>
+                <span class="px-3 py-1 bg-green-50 text-green-800 rounded-full text-sm">Chrome DevTools</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h2 class="text-3xl font-bold mb-4 text-center">Featured <span class="text-primary">Projects</span></h2>
+      <p class="text-lg text-center mb-12 max-w-2xl mx-auto">Here are some of my recent projects that showcase my skills and expertise.</p>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="card-image">
+            <img src="landingpage.jpg.png" alt="Responsive landing page screenshot">
+          </div>
+          <div class="card-content">
+            <h3 class="text-xl font-bold mb-2">Responsive Landing Page</h3>
+            <p class="text-gray-600 mb-4">A modern, mobile-friendly landing page built with HTML, CSS and JavaScript with smooth animations.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="px-2 py-1 bg-blue-50 text-blue-800 rounded-full text-xs">HTML</span>
+              <span class="px-2 py-1 bg-blue-50 text-blue-800 rounded-full text-xs">CSS</span>
+              <span class="px-2 py-1 bg-blue-50 text-blue-800 rounded-full text-xs">JavaScript</span>
+            </div>
+            <div class="flex gap-3">
+              <a href="YOUR_DEMO_LINK_HERE" target="_blank" class="text-sm font-medium text-primary hover:underline">View Demo</a>
+              <a href="https://github.com/Krishlay-pandey/CODECRAFT_WD_01.git" target="_blank" class="text-sm font-medium text-primary hover:underline">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card bg-white rounded-xl overflow-hidden shadow-md transition-all duration-300">
+          <div class="h-48 overflow-hidden">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/8140f0fc-ca7d-453f-a95a-2ee699e4a5f6.png" alt="Stopwatch application interface showing timer display and control buttons" class="w-full h-full object-cover">
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold mb-2">Stopwatch Web Application</h3>
+            <p class="text-gray-600 mb-4">A functional stopwatch with start, pause, reset controls and lap time tracking built with HTML, CSS and JavaScript.</p>
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="px-2 py-1 bg-blue-50 text-blue-800 rounded-full text-xs">HTML</span>
+              <span class="px-2 py-1 bg-blue-50 text-blue-800 rounded-full text-xs">CSS</span>
+              <span class="px-2 py-1 bg-blue-50 text-blue-800 rounded-full text-xs">JavaScript</span>
+            </div>
+            <div class="flex gap-3">
+              <a href="#" class="text-sm font-medium text-primary hover:underline">View Demo</a>
+              <a href="https://github.com/Krishlay-pandey/CODECRAFT_WD_02.git" target="_blank" class="text-sm font-medium text-primary hover:underline">GitHub</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <h2 class="text-3xl font-bold mb-12 text-center">Get In <span class="text-primary">Touch</span></h2>
+      
+      <div class="grid md:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-2xl font-semibold mb-6">Contact Form</h3>
+          <form class="space-y-6">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+              <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition">
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+              <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition">
+            </div>
+            <div>
+              <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+              <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition">
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+              <textarea id="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition"></textarea>
+            </div>
+            <button type="submit" class="px-6 py-3 bg-primary text-white rounded-lg font-medium hover:bg-secondary transition duration-300">Send Message</button>
+          </form>
+        </div>
+
+        <div>
+          <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
+          <div class="space-y-6">
+            <div class="flex items-start">
+              <div class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-50 flex items-center justify-center text-primary">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="ml-4">
+                <h4 class="text-sm font-medium text-gray-500">Email</h4>
+                <p class="text-base font-medium">krishlaypandey11@gmail.com</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start">
+              <div class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-50 flex items-center justify-center text-primary">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="ml-4">
+                <h4 class="text-sm font-medium text-gray-500">Phone</h4>
+                <p class="text-base font-medium">+91-8118873029</p>
+              </div>
+            </div>
+
+            <div class="flex items-start">
+              <div class="flex-shrink-0 h-10 w-10 rounded-full bg-blue-50 flex items-center justify-center text-primary">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="ml-4">
+                <h4 class="text-sm font-medium text-gray-500">Location</h4>
+                <p class="text-base font-medium">Jaipur, India</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-12">
+            <h4 class="text-lg font-semibold mb-4">Connect with me</h4>
+            <div class="flex space-x-4">
+              <a href="https://github.com/Krishlay-pandey" target="_blank" class="h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-primary hover:text-white transition">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/krishlaypandey?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-blue-600 hover:text-white transition">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=1u5mptb" target="_blank" class="h-10 w-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-700 hover:bg-pink-600 hover:text-white transition">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-4 md:mb-0">
+          <a href="#home" class="text-xl font-bold">Krishlay Pandey</a>
+          <p class="text-gray-400 mt-1">Web Developer & UI Enthusiast</p>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
